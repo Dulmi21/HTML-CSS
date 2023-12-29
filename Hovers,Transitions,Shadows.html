@@ -1,2 +1,76 @@
 <button class="subscribe">SUBSCRIBE</button>
 <button class="join">JOIN</button>
+<button class="Tweet">Tweet</button>
+
+<style>
+  .subscribe {
+    background-color: rgb(206, 43, 43);
+    color: azure;
+    border: none;
+    height: 38px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+
+    margin-right: 10px;
+
+    transition: opacity 0.6s; /* when, how long*/
+  }
+  /*
+       only when hover 
+ 
+    .subscribe:hover{
+        background-color:green;
+    }
+
+    .subscribe:active{  when click on the button
+        background-color: aquamarine;
+
+
+    }*/
+
+  .subscribe:hover {
+    opacity: 0.6;
+  }
+
+  .subscribe:active {
+    opacity: 1;
+  }
+
+  .join {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(11, 118, 190);
+    border-radius: 4px;
+    border-style: solid;
+    color: blue;
+    height: 36px;
+    width: 65px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.6s;
+  }
+
+  .join:hover {
+    background-color: rgb(129, 214, 230);
+  }
+
+  .join:active {
+    background-color: aliceblue;
+  }
+
+  .Tweet {
+    background-color: rgb(74, 159, 234);
+    color: aliceblue;
+    height: 36px;
+    width: 80px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: box-shadow 1s;
+  }
+
+  .Tweet:hover {
+    /* in rgba, a represents opacity*/
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+  }
+</style>
