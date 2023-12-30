@@ -1,0 +1,94 @@
+
+
+<!-- Text elements
+
+    Style specific parts of a text
+
+    u      - underline
+    strong - bold letters
+    span   - no styles. most basic
+             we can give it styles by giving it a class name
+             and then using style part of the code.
+
+
+
+To add spaces - margin-left or margin-right
+-->
+
+<p class="Tech">
+    Talking Tech and AI with Google CEO Sundar Pichai!
+</p>
+
+<p class="details">
+    3.4M views &#183 6 months ago 
+
+    <!-- here we use html entity, middle dot-->
+</p>
+
+<p>
+    Marques Broenlee &#10003
+</p>
+
+
+
+
+<p class="para">
+    Talking tech and AI on the heels of Google I/O. 
+    Also a daily driver phone reveal from Google's CEO. 
+    Shoutout to Sundar!
+
+</p>
+
+<p class="shop">
+    Shop early for the best selection of holiday favourites.
+     <span class="shopNow">
+        Shop now &#62
+     </span>
+</p>
+
+<style>
+    p{
+        font-family: Arial; /*To avoid repeating this line*/
+    }
+    .Tech{
+         font-family: Arial;
+         font-weight: bold;
+         font-size:17px;
+         width:270px; /* to organixe the text in a frame*/
+         line-height: 23px;
+         margin-bottom:5px;
+
+
+    }
+    .details{
+        font-style: Arial;
+        font-size:15px ;
+        background-color: rgb(186, 180, 180);
+        width:180px;
+        margin-top: 5px;
+
+    }
+    .para{
+        width:290px;
+        font-family: Arial;
+        font-size: 15px;
+    }
+    .shop{
+        text-align: center;
+        background-color: rgb(196, 56, 56);
+        font-size: 15px;
+        color:white;
+
+        padding-bottom: 10px;
+        padding-top:10px ;
+
+        
+    }
+
+    .shopNow:hover{
+        text-decoration:underline;
+        cursor: pointer;
+    }
+    
+
+</style>
