@@ -1,0 +1,29 @@
+
+.Cart {
+    background-color: rgb(194, 179, 83);
+    border-radius: 25px;
+    border: none;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+  }
+  .Buy {
+    background-color: rgb(201, 128, 44);
+    border-radius: 25px;
+    border: none;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+  }
+  .Delivery {
+    color: black;
+  }
+  .price {
+    color: rgb(82, 173, 82);
+    font-size: large;
+    font-weight: bolder;
+  }
+  .nike {
+    font-size: x-large;
+    font-weight: bolder;
+  }
