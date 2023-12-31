@@ -1,0 +1,42 @@
+p{
+    font-family: Arial; /*To avoid repeating this line*/
+}
+.Tech{
+     font-family: Arial;
+     font-weight: bold;
+     font-size:17px;
+     width:270px; /* to organixe the text in a frame*/
+     line-height: 23px;
+     margin-bottom:5px;
+
+
+}
+.details{
+    font-style: Arial;
+    font-size:15px ;
+    background-color: rgb(186, 180, 180);
+    width:180px;
+    margin-top: 5px;
+
+}
+.para{
+    width:290px;
+    font-family: Arial;
+    font-size: 15px;
+}
+.shop{
+    text-align: center;
+    background-color: rgb(196, 56, 56);
+    font-size: 15px;
+    color:white;
+
+    padding-bottom: 10px;
+    padding-top:10px ;
+
+    
+}
+
+.shopNow:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
