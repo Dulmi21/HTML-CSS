@@ -1,0 +1,19 @@
+.dog{
+    margin-top: 200px;
+    size: 20px;
+    width: 200px; /* this adjusts the height */
+
+    height: 200px;
+    object-fit:cover; /*adjusts the image withour stretching it*/
+    object-position: right; 
+    /* in case our image don't fit in the area*/
+
+    object-fit:contain;
+    /* contain full image and it is within given dimentions*/
+
+    border-width: 10px;
+
+
+   }
+
+   
