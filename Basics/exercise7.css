@@ -1,0 +1,84 @@
+.box{
+    border-radius: 6px;
+    border-color:grey;
+    border-style: solid;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+
+}
+        
+
+.google{
+    width:230px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 15px;
+    box-shadow: 0 0 5px rgba(10, 10, 10, 0.3);
+    border:none;
+    margin-bottom: 20px;
+}
+
+.newText{
+    display: block;
+}
+
+
+.sevenF{
+    width: 380px;
+}
+.email{
+
+}
+.newInput{
+    width: 363px;
+    border-radius: 6px;
+
+}
+.Click{
+    color: gray;
+
+}
+.Agree{
+    width:370px;
+    color: aliceblue;
+    background-color: rgb(63, 95, 193);
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+
+    margin-bottom: 80px;
+
+}
+ 
+.dog{
+    width:40px;
+    border-radius: 20px;
+    margin-right: 10px;
+    vertical-align:middle ;
+
+}
+.Msg{
+    vertical-align: middle;
+    width: 250px;
+     
+    border: none;
+    font-size: 18px;
+
+}
+.tweet{
+    vertical-align: middle;
+    background-color: rgb(47, 164, 242);
+    color: white;
+    border: none;
+   
+    border-radius: 15px;
+    width: 60px;
+    height: 20px;
+
+    cursor: pointer;
+    
+}
+
