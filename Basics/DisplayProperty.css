@@ -1,0 +1,14 @@
+.text, 
+.text2  {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.box1,
+.box2{
+
+    display: block;
+}
+
+ 
