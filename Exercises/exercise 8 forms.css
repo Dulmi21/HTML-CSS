@@ -1,0 +1,37 @@
+.firstname,
+.secondname{
+    width:100px;  
+    margin: none;   
+    border-radius: 5px;
+    border-color: rgb(192, 187, 187);
+    border-style: solid;
+    padding: 5px;
+  
+    
+}
+ 
+.email{
+    margin-top: 10px;
+    display:block ;
+    width: 217px;
+    border-radius: 5px;
+
+    border-color: rgb(192, 187, 187);
+    border-style: solid;
+    padding: 5px;
+  
+}
+
+.signup{
+    margin-top: 10px;
+    width: 230px;
+    border: none;
+    background-color: rgb(49, 107, 189);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+    cursor: pointer;
+}
+
+ 

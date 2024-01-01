@@ -1,0 +1,36 @@
+
+
+.request{
+    font-size: 20px;
+
+}
+.pickup,
+.destination{
+    display: block;
+    margin: 10px;
+    margin-left: 0;
+    width: 193px;
+    background-color: rgb(211, 209, 209);
+    color: black;
+    border:none;
+    padding: 10px;
+
+
+}
+
+.requestnow,
+.schedule{
+    padding: 5px;
+    height: 40px;
+}
+ 
+.requestnow:hover,
+.schedule:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+   
+
+}
+
+
