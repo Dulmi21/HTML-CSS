@@ -1,0 +1,81 @@
+.elementOne{
+     width:350px;
+     display: inline-block;
+     vertical-align: top;
+}
+.firstimage{
+    width: 300px;
+    margin-bottom: 10px;
+
+
+}
+.firstchannel{
+    width: 50px;
+    border-radius: 30px;
+    vertical-align: middle;
+
+
+}
+.text{
+    margin-left: 50px;
+    ;
+}
+.firsttopic{
+    display: inline-block;
+    width:250px;
+    vertical-align: middle;
+    font-weight: bold;
+    
+
+}
+.views,
+.firstname{
+   /* display:inline-block;*/
+   margin-top: 0;
+   margin-bottom: 0;
+
+   
+   
+
+}
+ 
+/*----------------------------------------------*/
+.elementTwo{
+    width:350px;
+    display: inline-block;
+    vertical-align: top;
+}
+.secondimage{
+   width: 300px;
+   margin-bottom: 10px;
+
+
+}
+.secondchannel{
+   width: 50px;
+   border-radius: 30px;
+   vertical-align: middle;
+
+
+}
+.text2{
+   margin-left: 50px;
+}
+.secondtopic{
+   display: inline-block;
+   width:250px;
+   vertical-align: middle;
+   font-weight: bold;
+   
+
+}
+.views2,
+.secondname{
+  /* display:inline-block;*/
+  margin-top: 0;
+  margin-bottom: 0;
+
+  
+  
+
+}
