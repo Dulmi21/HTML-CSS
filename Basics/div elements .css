@@ -1,3 +1,7 @@
+p{
+    font-family: Roboto;
+}
+
 .elementOne{
      width:350px;
      display: inline-block;
@@ -24,7 +28,9 @@
     display: inline-block;
     width:250px;
     vertical-align: middle;
-    font-weight: bold;
+    font-weight: 500;
+
+    line-height: 18px;;
     
 
 }
@@ -65,7 +71,7 @@
    display: inline-block;
    width:250px;
    vertical-align: middle;
-   font-weight: bold;
+   font-weight: 500;
    
 
 }
