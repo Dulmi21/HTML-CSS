@@ -1,0 +1,74 @@
+.one{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.first{
+    width: 200px;
+    background-color: aqua;
+}
+.second{
+    background-color: lightpink;
+    width: 75px;
+}
+
+.two{
+    display: flex;
+    margin-bottom: 10px;
+}
+.item1{
+    background-color: aqua;
+    width: 50px;
+}
+.item2{
+    background-color: lightpink;
+    flex: 1;
+}
+.item3{
+    background-color: aqua;
+    width: 75px;
+}
+
+.three{
+    display: flex;
+
+    justify-content:space-between
+}
+.itemOne{
+    background-color: aqua;
+    width: 75px;
+
+}
+.itemTwo{
+    background-color: aqua;
+    width: 75px;
+
+}
+.itemThree{
+    background-color: aqua;
+    width: 75px;
+
+}
+.itemFour{
+    background-color: aqua;
+    width: 75px;
+
+}
+
+.four{
+    height: 50px;
+    display: flex;
+    border: solid 3px rgb(126, 126, 126);
+
+    justify-content: space-between;
+ 
+
+}
+.itemOne1,
+.itemTwo2{
+    height: 20px;
+    background-color: lightpink;
+    margin-top: 15px;
+
+}
+ 

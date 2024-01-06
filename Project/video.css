@@ -1,3 +1,10 @@
+body{
+    margin: 0; /* to remove the margins at the corners of the page*/
+}
+
+
+
+
 
  .channelGrid{
     display: grid;

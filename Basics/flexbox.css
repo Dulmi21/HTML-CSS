@@ -1,0 +1,27 @@
+/*
+flexbox- flexible box
+        - unlike grid, this takes only the space that is needed*/
+
+.flexbox{
+    display: flex;
+    flex-direction: row;/* to align them horizontally*/
+    margin-bottom: 20px;
+}
+
+
+.Newflexbox{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.searchBar{
+    display: flex;
+    flex-direction: row-reverse; /* to start from right side*/
+    
+    justify-content: center;/* to align content to the center*/
+    justify-content: space-between;
+    /* spreadout items evenly*/
+    align-items: center;
+    /*To place them at the bottom of the container*/
+}

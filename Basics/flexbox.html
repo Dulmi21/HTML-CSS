@@ -1,0 +1,78 @@
+<!--
+    
+Flexbox and Grid are two layout models in CSS that enable developers to create responsive and flexible designs, but they have different use cases and functionalities. Here's a brief overview of the key differences between Flexbox and Grid:
+
+Layout Model:
+
+Flexbox: Designed for one-dimensional layout, either in a row or a column. It is suitable for arranging items along a single axis.
+Grid: Designed for two-dimensional layout, allowing you to create a grid of rows and columns. It is suitable for arranging items in both rows and columns simultaneously.
+Orientation:
+
+Flexbox: Primarily used for laying out items in a row or column.
+Grid: Supports both rows and columns, offering more control over the layout.
+Main Purpose:
+
+Flexbox: Ideal for distributing space along a single axis and aligning items within a container. It is commonly used for building navigation bars, sidebar layouts, and centering items.
+Grid: Suited for creating complex layouts where you need to control both rows and columns. It is useful for building overall page structure and aligning items in a grid format.
+Alignment:
+
+Flexbox: Provides properties like justify-content and align-items for controlling the alignment of items along the main and cross axes.
+Grid: Offers properties like justify-items and align-items to control the alignment of items within the grid cells.
+Responsive Design:
+
+Flexbox: Well-suited for building flexible and responsive components within a container, but it may not be as efficient for complex overall page layouts.
+Grid: Powerful for creating responsive layouts and adapting to different screen sizes. It allows you to define how many columns or rows an item should span, making it highly adaptable.
+
+-->
+
+<!--
+    To take the remaining space
+     grid-> 1fr
+     flexbox-> flex:1
+-->
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>FlexBox</title>
+
+    <link rel="stylesheet" href="flexbox.css" />
+  </head>
+
+  <body>
+    <div class="flexbox">
+      <div style="background-color: lightblue">
+        div1
+        <p>This is box</p>
+      </div>
+
+      <div style="background-color: lightpink">div2</div>
+    </div>
+
+    <div class="Newflexbox">
+      <div style="background-color: lightblue">
+        div1
+        <p>This is box</p>
+      </div>
+
+      <div style="background-color: lightpink; flex: 1">
+        <!-- To take the remaining space-->
+        div2
+      </div>
+
+      <div style="background-color: rgb(232, 228, 112); flex: 1">
+        <!-- To take the remaining space-->
+        div2
+      </div>
+    </div>
+
+    <div class="searchBar">
+      <div style="background-color: lightpink; width: 100px">100</div>
+
+      <div style="background-color: lightblue; width: 100px">100px</div>
+
+      <div style="background-color: lightpink; width: 100px">100</div>
+    </div>
+  </body>
+</html>
