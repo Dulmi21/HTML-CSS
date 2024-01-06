@@ -1,0 +1,27 @@
+.outerGrid{
+    display: grid;
+    /* 2 values define how wide our grid columns are*/
+    grid-template-columns: 100px 100px 1fr;
+
+
+    /* 1fr means take the remaining free space in that grid*/
+    /*Now they does not take up the entire line */
+    margin-bottom: 10px;
+
+}
+
+
+.OneFRGrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+
+    /* Take the available space 2:1:1 ratio*/
+
+}
+.secondGrid{
+    display: grid;
+
+    grid-template-columns: 100px 100px 100px;
+
+    grid-template-rows: 100px 100px  100px;
+}
