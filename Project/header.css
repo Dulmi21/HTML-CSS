@@ -2,16 +2,14 @@
     display: flex;
     
     flex-direction: row;
-    height: 55px;
+    height: 65px;
 
     justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
      
 }
-.firstSection{
-    width: 150px;
-    background-color: bisque;
 
-}
 
 .secondSection{
     flex: 1;
@@ -28,7 +26,47 @@
 }
 
 .thirdSection{
-    width: 250px;
+    width: 350px;
     background-color: aquamarine;
 
+}
+
+.InnerFlex{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.upload{
+    width: 35px;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+ 
+
+.firstSection{
+   /* width: 250px; by removing width it stretch to 
+   contain the both menu and logo*/
+    background-color: bisque;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.menu{
+    width: 35px;
+    margin-left: 20px;
+
+    margin-right: 20px;
+     
+}
+
+.logo{
+   /* width:120px ;*/
+   height: 25px;
+     
 }
