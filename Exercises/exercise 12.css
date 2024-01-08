@@ -72,3 +72,48 @@
 
 }
  
+
+
+.newFlex{
+    display: flex;
+   /* justify-content: space-between;*/
+}  
+
+.Number1{
+    background-color: lightblue;
+    flex: 1;
+
+
+}
+.Number2{
+    background-color: lightpink;
+    flex: 1;
+
+
+}
+
+.SearchBox{
+    margin: 10px;
+    width:80%;
+
+}
+.Number3{
+    background-color: lightblue;
+    flex: 1;
+
+   
+
+
+
+}
+
+.innernewFlex{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    border:solid 3px black;
+    margin: 10px;
+
+   /* min-width: 200px;*/
+}
+ 
