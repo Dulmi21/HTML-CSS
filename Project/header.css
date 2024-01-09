@@ -6,28 +6,21 @@
 
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    margin-top: 7px;
      
 }
 
 
 .secondSection{
-    flex: 1;
-    /*So that, when we change the size this middle part gets changed
-    without affecting the width of other 2 parts*/
-    background-color: lightpink;
-
-    margin-left: 70px;
-    margin-right: 40px;
-
-    max-width: 600px;
+   
    
 
 }
 
 .thirdSection{
     width: 350px;
-    background-color: aquamarine;
+  /*  background-color: aquamarine;*/
 
 }
 
@@ -50,7 +43,7 @@
 .firstSection{
    /* width: 250px; by removing width it stretch to 
    contain the both menu and logo*/
-    background-color: bisque;
+   /* background-color: bisque;*/
 
     display: flex;
     align-items: center;
@@ -68,5 +61,81 @@
 .logo{
    /* width:120px ;*/
    height: 25px;
+     
+}
+
+.secondSection{
+    display: flex;
+    padding: 5px;
+    
+
+    flex: 1;
+    
+    /*So that, when we change the size this middle part gets changed
+    without affecting the width of other 2 parts*/
+   /* background-color: lightpink;*/
+
+   margin-left: 70px;
+    margin-right: 40px;
+
+    max-width: 600px;
+    
+}
+
+.searchBar{
+    flex: 1;
+    padding-left: 30px;
+   
+
+    border-color: gainsboro;
+    border-style: solid;
+
+    font-size: 25px;
+
+    box-shadow: inset; /*set shadow to inside*/
+
+}
+
+.searchBar::placeholder{
+    font-size: 25px;
+    font-family: Roboto;
+
+
+}
+.search{
+    width: 80px;
+
+    background-image: url(Header/search.svg);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+
+    border-color: gainsboro;
+    border-style: solid;
+
+     
+
+
+}
+
+.search:hover{
+    background-color: rgb(230, 230, 230);
+}
+.mic{
+    margin-left: 10px;
+    width: 50px;
+
+    background-image: url(Header/voice-search-icon.svg);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border: none;
+
+    border-radius: 40px;
+
+    cursor: pointer;
      
 }
