@@ -2,33 +2,31 @@
     display: flex;
     
     flex-direction: row;
-    height: 65px;
+   /* height: 65px;*/
 
     justify-content: space-between;
-    width: 100%;
+    
     margin-bottom: 25px;
     margin-top: 7px;
      
+ 
 }
 
 
-.secondSection{
-   
-   
-
-}
 
 .thirdSection{
     width: 350px;
   /*  background-color: aquamarine;*/
 
+  background-color: aquamarine;
+  display: flex;
+    justify-content:end;
+    padding: 10px;
+
+
 }
 
-.InnerFlex{
-    display: flex;
-    justify-content: end;
-    padding: 10px;
-}
+
 
 .upload{
     width: 35px;
@@ -47,6 +45,8 @@
 
     display: flex;
     align-items: center;
+
+    background-color: lightblue;
 
 }
 
@@ -92,7 +92,7 @@
 
     font-size: 25px;
 
-    box-shadow: inset; /*set shadow to inside*/
+    box-shadow: inset 0px 0px 2px; /*set shadow to inside*/
 
 }
 
@@ -112,8 +112,12 @@
 
     cursor: pointer;
 
+    margin-left: -1px;
+
     border-color: gainsboro;
     border-style: solid;
+
+    
 
      
 
